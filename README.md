@@ -1,4 +1,4 @@
-# gummble-com
+# Gummble
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,147 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-gummble-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://gummble.com/
+Gummble is an organized library of 300,000+ real UI screenshots from shipped iOS, Android, and web apps. It provides designers with a curated collection of UI design inspiration, showcasing real app screens, flows, and patterns to help accelerate product design and improve user experience. The platform aims to make UI design inspiration accessible to every designer, offering searchable categories, tags, and high‑quality visuals.
+
+Founded to bridge the gap between design theory and real‑world implementations, Gummble continuously updates its library with fresh releases, ensuring designers have up‑to‑date references for modern app design trends.
+
+**Areas:** Company · UI · Design · Inspiration · Screenshots
+
+## Gummble on APIs.io
+
+Everything profiled for Gummble is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gummble-com/](https://apis.io/providers/gummble-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Gummble REST API](https://apis.io/apis/gummble-com/gummble-rest-api/) — The Gummble REST API provides access to apps, screens, flows, search and other resources. Documentation is at the API reference page.
+- [Gummble API Reference API](https://apis.io/apis/gummble-com/api-api/) — Gummble API Reference API as documented publicly: 9 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's…
+- [Gummble core API](https://apis.io/apis/gummble-com/core-api/) — Gummble core API as documented publicly: 7 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's own…
+- [Gummble MCP API](https://apis.io/apis/gummble-com/mcp-api/) — Gummble MCP API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Gummble Com Webhooks](https://apis.io/asyncapis/gummble-com/gummble-com-webhooks/)
+
+#### JSON Schema (7)
+
+The data models the API reads and writes.
+
+- [GetApiV1AppsSlugoridResponse](https://apis.io/schemas/gummble-com/gummble-com-get-api-v1-apps-slugorid-response/)
+- [GetApiV1FlowsIdResponse](https://apis.io/schemas/gummble-com/gummble-com-get-api-v1-flows-id-response/)
+- [GetApiV1FlowsResponse](https://apis.io/schemas/gummble-com/gummble-com-get-api-v1-flows-response/)
+- [GetAppsResponse](https://apis.io/schemas/gummble-com/gummble-com-get-apps-response/)
+- [GetWellKnownOauthProtectedResourceMcpResponse](https://apis.io/schemas/gummble-com/gummble-com-get-well-known-oauth-protected-resource-mcp-response/)
+- [PostMcpRequest](https://apis.io/schemas/gummble-com/gummble-com-post-mcp-request/)
+- [PostOauthRegisterRequest](https://apis.io/schemas/gummble-com/gummble-com-post-oauth-register-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Gummble Com Context](https://apis.io/jsonld/gummble-com/gummble-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Gummble API Rules](https://apis.io/rules/gummble-com/gummble-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gummble Authentication](https://apis.io/security/gummble-com/gummble-com-authentication/)
+- [Gummble Domain Security](https://apis.io/security/gummble-com/gummble-com-domain-security/)
+- [Gummble Trust Center](https://apis.io/security/gummble-com/gummble-com-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Gummble Plans Pricing](https://apis.io/plans/gummble-com/gummble-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Gummble Rate Limits](https://apis.io/rate-limits/gummble-com/gummble-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gummble.com/)
+- [Documentation](https://gummble.com/mcp)
+- [Getting started](https://gummble.com/mcp)
+- [API reference](https://gummble.com/categories/reference)
+- [Pricing](https://gummble.com/pricing)
+- [Support](https://gummble.com/support)
+- [Changelog](https://docs.gummble.com/docs/changelog)
+- [Blog](https://gummble.com/blog)
+- [Security](https://gummble.com/security)
+- [Compliance](https://gummble.com/security)
+- [Terms of service](https://gummble.com/terms)
+- [Privacy policy](https://gummble.com/privacy)
+- [GitHub](https://github.com/gummble)
+
+## API Evangelist rating
+
+**Kin Score 72.8** — exemplar · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 61.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 75.8 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 88.9 |
+
+**Agent readiness 43.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gummble-com/](https://apis.io/providers/gummble-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gummble: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gummble-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
